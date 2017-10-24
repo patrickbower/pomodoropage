@@ -1,0 +1,36 @@
+[debug] [2017-10-24T22:38:43.699Z] ----------------------------------------------------------------------
+[debug] [2017-10-24T22:38:43.701Z] Command:       /Users/patrickbower/.nvm/versions/node/v8.6.0/bin/node /Users/patrickbower/.nvm/versions/node/v8.6.0/bin/firebase serve
+[debug] [2017-10-24T22:38:43.701Z] CLI Version:   3.13.1
+[debug] [2017-10-24T22:38:43.701Z] Platform:      darwin
+[debug] [2017-10-24T22:38:43.701Z] Node Version:  v8.6.0
+[debug] [2017-10-24T22:38:43.702Z] Time:          Tue Oct 24 2017 23:38:43 GMT+0100 (BST)
+[debug] [2017-10-24T22:38:43.702Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-24T22:38:43.715Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-24T22:38:43.715Z] > authorizing via signed-in user
+[debug] [2017-10-24T22:38:43.717Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-10-24T22:38:43.717Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/STQPRk6_AjNNZyWBiTD-STSPxLS_TID5k8LmC_oVR6V3SA_B-ARZvfuhBQrZErsG',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Oct 24 2017 23:38:43 GMT+0100 (BST)
+[debug] [2017-10-24T22:38:43.884Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-24T22:38:43.897Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pomodoropage  
+ Tue Oct 24 2017 23:38:43 GMT+0100 (BST)
+[debug] [2017-10-24T22:38:44.614Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-24T22:38:44.615Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pomodoropage/tokens  
+ Tue Oct 24 2017 23:38:44 GMT+0100 (BST)
+[debug] [2017-10-24T22:38:45.486Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/patrickbower/git/pomodoropage'...
+[info] 
+[debug] [2017-10-24T22:38:45.489Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pomodoropage  
+ Tue Oct 24 2017 23:38:45 GMT+0100 (BST)
+[debug] [2017-10-24T22:38:46.305Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-24T22:38:46.306Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/674003386548/clients/_:getWebAppConfig  
+ Tue Oct 24 2017 23:38:46 GMT+0100 (BST)
+[debug] [2017-10-24T22:38:46.920Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+

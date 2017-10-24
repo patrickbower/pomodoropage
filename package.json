@@ -1,0 +1,22 @@
+{
+  "name": "pomodoropage",
+  "version": "1.0.0",
+  "description": "Pomodoro technique dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://patrickbower@github.com/patrickbower/pomodoropage.git"
+  },
+  "author": "Patrick Bower",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrickbower/pomodoropage/issues"
+  },
+  "homepage": "https://github.com/patrickbower/pomodoropage#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
